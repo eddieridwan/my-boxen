@@ -1,4 +1,9 @@
 GITHUBTARBALL
+  remote: boxen/puppet-alfred
+  specs:
+    alfred (1.1.7)
+
+GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
     boxen (3.4.2)
@@ -12,6 +17,11 @@ GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
   specs:
     dnsmasq (1.0.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-dropbox
+  specs:
+    dropbox (1.2.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-firefox
@@ -64,6 +74,11 @@ GITHUBTARBALL
     nodejs (3.6.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-onepassword
+  specs:
+    onepassword (1.1.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-openssl
   specs:
     openssl (1.0.0)
@@ -89,6 +104,11 @@ GITHUBTARBALL
     propane (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-rdio
+  specs:
+    rdio (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-redis
   specs:
     redis (3.0.3)
@@ -104,9 +124,19 @@ GITHUBTARBALL
     ruby (7.2.4)
 
 GITHUBTARBALL
+  remote: boxen/puppet-sequel_pro
+  specs:
+    sequel_pro (1.0.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-sudo
   specs:
     sudo (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-vlc
+  specs:
+    vlc (1.0.5)
 
 GITHUBTARBALL
   remote: boxen/puppet-wget
@@ -114,9 +144,19 @@ GITHUBTARBALL
     wget (1.0.1)
 
 GITHUBTARBALL
+  remote: boxen/puppet-wunderlist
+  specs:
+    wunderlist (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-xquartz
   specs:
     xquartz (1.1.1)
+
+GITHUBTARBALL
+  remote: jozefizso/puppet-sublime_text_3
+  specs:
+    sublime_text_3 (1.0.2)
 
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
@@ -134,9 +174,11 @@ GITHUBTARBALL
     module-data (0.0.3)
 
 DEPENDENCIES
+  alfred (= 1.1.7)
   boxen (= 3.4.2)
   chrome (= 1.1.2)
   dnsmasq (= 1.0.1)
+  dropbox (= 1.2.0)
   firefox (= 1.1.8)
   foreman (= 1.2.0)
   gcc (= 2.0.100)
@@ -149,16 +191,22 @@ DEPENDENCIES
   mysql (= 1.2.0)
   nginx (= 1.4.3)
   nodejs (= 3.6.0)
+  onepassword (= 1.1.0)
   openssl (= 1.0.0)
   osx (= 2.2.2)
   phantomjs (= 2.1.0)
   pkgconfig (= 1.0.0)
   propane (= 1.0.0)
+  rdio (= 1.0.0)
   redis (= 3.0.3)
   repository (= 2.3.0)
   ruby (= 7.2.4)
+  sequel_pro (= 1.0.1)
   stdlib (= 4.1.0)
+  sublime_text_3 (= 1.0.2)
   sudo (= 1.0.0)
+  vlc (= 1.0.5)
   wget (= 1.0.1)
+  wunderlist (= 1.0.0)
   xquartz (= 1.1.1)
 

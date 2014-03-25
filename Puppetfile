@@ -63,3 +63,14 @@ github "propane",        "1.0.0"
 github "redis",          "3.0.3"
 github "sublime_text_3", "1.0.2", :repo => "jozefizso/puppet-sublime_text_3"
 github "wget",           "1.0.1"
+
+# Hugh
+
+github "alfred",      "1.1.7"
+github "dropbox",     "1.2.0"
+github "firefox",     "1.1.8"
+github "onepassword", "1.1.0"
+github "rdio",        "1.0.0"
+github "sequel_pro",  "1.0.1"
+github "vlc",         "1.0.5"
+github "wunderlist",  "1.0.0"
