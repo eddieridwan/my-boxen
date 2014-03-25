@@ -54,5 +54,12 @@ github "stdlib",      "4.1.0", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",        "1.0.0"
 github "xquartz",     "1.1.1"
 
-# Optional/custom modules. There are tons available at
-# https://github.com/boxen.
+# AMC Packages
+
+github "chrome",         "1.1.2"
+github "mysql",          "1.2.0"
+github "osx",            "2.2.2"
+github "propane",        "1.0.0"
+github "redis",          "3.0.3"
+github "sublime_text_3", "1.0.2", :repo => "jozefizso/puppet-sublime_text_3"
+github "wget",           "1.0.1"
