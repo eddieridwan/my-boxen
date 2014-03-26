@@ -22,6 +22,12 @@ class projects::amc-cts {
   mysql::db { 'credentials_development': }
   mysql::db { 'credentials_test': }
 
+  ruby::gem { 'debugger-ruby_core_source':
+    gem     => 'debugger-ruby_core_source',
+    ruby    => '1.9.3',
+    version => '~> 1.3.2'
+  }
+
   boxen::project { 'amc-cts':
     source => 'git@github.com:amc-projects/cts-rails.git',
     ruby   => '1.9.3',
