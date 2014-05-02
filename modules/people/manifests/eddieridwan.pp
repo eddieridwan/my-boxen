@@ -1,4 +1,3 @@
-eddieridwan.pp
 class people::eddieridwan {
 
 	notify { 'class people::eddieridwan declared': }
