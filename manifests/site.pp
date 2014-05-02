@@ -97,6 +97,8 @@ include firefox
 include mysql
 include propane
 include redis
+include sublime_text_3
+include sublime_text_3::package_control
 
 # AMC TODO
 
