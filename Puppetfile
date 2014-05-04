@@ -74,3 +74,7 @@ github "rdio",        "1.0.0"
 github "sequel_pro",  "1.0.1"
 github "vlc",         "1.0.5"
 github "wunderlist",  "1.0.0"
+
+# ER
+
+github "postgresql",  "3.0.1"

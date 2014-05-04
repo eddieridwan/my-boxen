@@ -4,6 +4,7 @@ class people::eddieridwan {
 
   # Applications
 
+  include postgresql
   include sublime_text_3
 
   # Projects
@@ -83,20 +84,15 @@ class people::eddieridwan {
     source => "${::github_login}/dotfiles"
   }
 
-  exec { "cp -r ${dotfiles}/fonts/SourceCodePro ${home}/Library/Fonts/SourceCodePro":
-    creates => "${home}/Library/Fonts/SourceCodePro",
-    require => Repository[$dotfiles]
-  }
-
   file { "${home}/.bash_profile":
     ensure => "link",
     target => "${dotfiles}/bash_profile",
     require => Repository[$dotfiles]
   }
 
-  file { "${home}/.irbrc":
+  file { "${home}/.git-completion.bash":
     ensure => "link",
-    target => "${dotfiles}/irbrc",
+    target => "${dotfiles}/git-completion.bash",
     require => Repository[$dotfiles]
   }
 
