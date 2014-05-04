@@ -77,5 +77,5 @@ github "wunderlist",  "1.0.0"
 
 # ER
 
-#github "sysctl",      "1.0.1"
+github "sysctl",      "1.0.1"
 #github "postgresql",  "3.0.1"

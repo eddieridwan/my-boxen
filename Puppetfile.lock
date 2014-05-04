@@ -99,11 +99,6 @@ GITHUBTARBALL
     pkgconfig (1.0.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-postgresql
-  specs:
-    postgresql (3.0.1)
-
-GITHUBTARBALL
   remote: boxen/puppet-propane
   specs:
     propane (1.0.0)
@@ -137,11 +132,6 @@ GITHUBTARBALL
   remote: boxen/puppet-sudo
   specs:
     sudo (1.0.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-sysctl
-  specs:
-    sysctl (1.0.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-vlc
@@ -206,7 +196,6 @@ DEPENDENCIES
   osx (= 2.2.2)
   phantomjs (= 2.1.0)
   pkgconfig (= 1.0.0)
-  postgresql (= 3.0.1)
   propane (= 1.0.0)
   rdio (= 1.0.0)
   redis (= 3.0.3)
@@ -216,7 +205,6 @@ DEPENDENCIES
   stdlib (= 4.1.0)
   sublime_text_3 (= 1.0.2)
   sudo (= 1.0.0)
-  sysctl (= 1.0.1)
   vlc (= 1.0.5)
   wget (= 1.0.1)
   wunderlist (= 1.0.0)
