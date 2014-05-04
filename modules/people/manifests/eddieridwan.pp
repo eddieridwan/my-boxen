@@ -4,7 +4,7 @@ class people::eddieridwan {
 
   # Applications
 
-  include postgresql
+  # include postgresql
   include sublime_text_3
 
   # Projects
