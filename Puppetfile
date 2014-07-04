@@ -41,7 +41,7 @@ github "module-data", "0.0.3", :repo => "ripienaar/puppet-module-data"
 github "dnsmasq",     "1.0.1"
 github "foreman",     "1.2.0"
 github "gcc",         "2.0.100"
-github "git",         "2.3.0"
+github "git",         "2.4.0"
 github "go",          "1.1.0"
 github "homebrew",    "1.6.2"
 github "hub",         "1.3.0"
@@ -57,5 +57,29 @@ github "stdlib",      "4.1.0", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",        "1.0.0"
 github "xquartz",     "1.1.1"
 
-# Optional/custom modules. There are tons available at
-# https://github.com/boxen.
+# AMC Packages
+
+github "chrome",         "1.1.2"
+github "mysql",          "1.2.0"
+github "osx",            "2.2.2"
+github "propane",        "1.0.0"
+github "redis",          "3.0.3"
+github "sublime_text_3", "1.0.2", :repo => "jozefizso/puppet-sublime_text_3"
+github "wget",           "1.0.1"
+
+# Hugh
+
+github "alfred",      "1.1.7"
+github "dropbox",     "1.2.0"
+github "firefox",     "1.1.8"
+github "onepassword", "1.1.0"
+github "rdio",        "1.0.0"
+github "sequel_pro",  "1.0.1"
+github "vlc",         "1.0.5"
+github "wunderlist",  "1.0.0"
+
+# ER
+
+github "sysctl",      "1.0.1"
+github "gitx",        "1.2.0"
+#github "postgresql",  "3.0.1"

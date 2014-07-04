@@ -31,7 +31,8 @@ File {
 
 Package {
   provider => homebrew,
-  require  => Class['homebrew']
+  require  => Class['homebrew'],
+  install_options => ['--build-from-source']
 }
 
 Repository {
@@ -88,3 +89,15 @@ node default {
     target => $boxen::config::repodir
   }
 }
+
+# AMC Specific
+
+include chrome
+include firefox
+include mysql
+include propane
+include redis
+
+# AMC TODO
+
+# * prince-9.0r4-setup.exe
