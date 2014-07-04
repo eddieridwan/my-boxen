@@ -6,7 +6,7 @@ class people::eddieridwan {
 
   # include postgresql
   include sublime_text_3
-  include gitx
+  include gitx:dev
 
   # Projects
 
